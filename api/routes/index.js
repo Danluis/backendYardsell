@@ -2,7 +2,7 @@ const express = require('express');
 const productsRouter = require('./products.router')
 const usersRouter = require('./users.router')
 const categoriesRouter = require('./categories.router')
-const orderBuyRouter = require('./orderBuy.router')
+const orderBuyRouter = require('./orders.router')
 
 const router = express.Router()
 
